@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div id="leftSide">
+    <button onclick="openTtt();" id="tttbtn">TicTacToe</button>
+    <table id="ttttable" >
+        <tr>
+            <td>
+                <button id="a" class="tttbtn" onclick="clickBtn(this,'a');"></button>
+            </td>
+            <td>
+                <button id="b" class="tttbtn" onclick="clickBtn(this,'b');"></button>
+            </td>
+            <td>
+                <button id="c" class="tttbtn" onclick="clickBtn(this,'c');"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="d" class="tttbtn" onclick="clickBtn(this,'d');"></button>
+            </td>
+            <td>
+                <button id="e" class="tttbtn" onclick="clickBtn(this,'e');"></button>
+            </td>
+            <td>
+                <button id="f" class="tttbtn" onclick="clickBtn(this,'f');"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="g" class="tttbtn" onclick="clickBtn(this,'g');"></button>
+            </td>
+            <td>
+                <button id="h" class="tttbtn" onclick="clickBtn(this,'h');"></button>
+            </td>
+            <td>
+                <button id="i" class="tttbtn" onclick="clickBtn(this,'i');"></button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button onclick="resetEle();" id="reset" style="width: 100%; display:none; margin-bottom: 15px;">reset</button>
+                <button onclick="closeTtt()" style="width: 100%;" >back</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="rightSide" align="center">
+    <div id="head">
+        <h5>Portfolio</h5>
+        <h2>JAYCEE</h2>
+        <h5>Pasin Vatinkla</h5>
+    </div>
+    <center>
+        <div align="center" id="image"></div>
+    </center>
+    <div id="bottom">
+        <h2>Bodindecha School</h2>
+        <p>Bangkok</p>
+        <p>Thailand</p>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

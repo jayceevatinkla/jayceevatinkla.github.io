@@ -1,0 +1,92 @@
+#leftSide{
+    background: url('../images/img.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#rightSide{
+    height:100%;
+    width:50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#head{
+    position: absolute;
+    top: 0;
+    width:100%;
+    /*background: green;*/
+}
+#image{
+    background: url('../images/flip.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius:50%;
+    align-items: center;
+    align-self: center;
+    display: block;
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    /*background: blue;*/
+}
+
+#tttbtn{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background:#d1d3ff ;
+    border: none;
+    box-shadow: black 0 0 10px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+#tttbtn:hover{
+    background:#7200ff ;
+    color: #ffffff;
+    transition: all .3s ease-in;
+
+}
+
+#tttbtn:active{
+    background:#8800ba;
+    color: #ffffff;
+    transition: all .1s ease-in;
+
+}
+
+button.tttbtn {
+    width: 50px;
+    height: 50px;
+    background: white;
+    transition: all .5s ease-in;
+}
+button.tttbtn:hover{
+    background: greenyellow;
+    transition: all .5s ease-in;
+}
+
+#ttttable{
+    display: none;
+}
